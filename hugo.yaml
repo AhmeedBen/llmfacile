@@ -1,0 +1,63 @@
+baseURL: http://ahmeedben.github.io/llmfacile
+languageCode: en-us
+title: LLM Facile
+theme: PaperMod
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+params:
+    math: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    homeInfoParams:
+        Title: Ahmed BEN
+        Content: LLM | Generative AI Specialist, Share with you lessons, projects and news.
+
+    profileMode:
+      enabled: true # needs to be explicitly set
+      title: "Welcome To LLM Facile!"
+      subtitle: "I'm **Ahmed BEN | LLM Specialist**  I create educational content on LLM and Generative AI. _this website is under construction._"
+      imageUrl: "images/profile3.png"
+      imageWidth: 200
+      imageHeight: 200
+      imageTitle: "LLM Facile"
+      buttons:
+        - name: Posts
+          url: posts
+        - name: Projects
+          url: projects
+
+    socialIcons: # optional
+        - name: linkedin
+          url: "https://linkedin.com"
+        - name: github
+          url: "https://github.com"
+    
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+      keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+    - identifier: blog
+      name: Posts
+      url: /posts/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
