@@ -1,4 +1,4 @@
 baseURL = 'http://ahmeedben.github.io'
 languageCode = 'en-us'
 title = 'LLM Facile'
-theme = 'paperMod'
+theme = 'PaperMod'
