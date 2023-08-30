@@ -9,6 +9,15 @@ outputs:
     - RSS
     - JSON # is necessary
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
+label:
+    text: "LLM Facile"
+    icon: "images/logo.png"
+    iconHeight: 35
+
 params:
     math: true
     ShowShareButtons: true
