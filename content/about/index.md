@@ -27,9 +27,10 @@ with all my knowledge helping businesses integrate new technologies especially *
 
 - Share insights on how to deploy models to cloud **(GCP,AWS,AZURE)** or locally **(GGML,GGFU,GPTQ)**.
 
-- Share different projects **(chatbots and systems)** using **RAG** (Retrieval Augmented Genration), **external API**, **Function Calls**, through tools such as **LangChain**, **HuggingFace**, **transformers** etc.
+- Share different projects **(chatbots** and **systems)** using **RAG** (Retrieval Augmented Generation), **external API**, **Function Calls**, through tools such as **LangChain**, **HuggingFace**, **transformers** etc.
+- LLMOps with **Mlflow**, cost efficient deployment using **vLLM** and **Skypilot**.
 
-**Let's Connect:**
 
-I'm excited to engage with fellow tech enthusiasts, and anyone captivated by the potential of LLMs and generative AI. 
-Don't hesitate to get in touch, whether you have questions, topic suggestions, or simply want to exchange ideas over a virtual cup of coffee.
+> ### **Let's Connect:**
+> I'm excited to engage with fellow tech enthusiasts, and anyone captivated by the potential of LLMs  and generative AI. 
+> Don't hesitate to get in touch, whether you have questions, topic suggestions, or simply want to exchange ideas over a virtual cup of coffee.

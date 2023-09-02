@@ -20,8 +20,11 @@ label:
 
 params:
     math: true
+    hideFooter: true
     ShowShareButtons: true
     ShowReadingTime: true
+    disableThemeToggle: false
+    disableScrollToTop: false
     homeInfoParams:
         Title: Ahmed BEN
         Content: LLM | Generative AI Specialist, Share with you lessons, projects and news.
@@ -29,7 +32,7 @@ params:
     profileMode:
       enabled: true # needs to be explicitly set
       title: "Welcome To LLM Facile!"
-      subtitle: "I'm **Ahmed BEN | LLM Specialist**  I create educational content on LLM and Generative AI. _this website is under construction._"
+      subtitle: "I'm **Ahmed BEN, LLM Specialist**. I create educational content on LLM and Generative AI. _this website is under construction._"
       imageUrl: "images/profile3.png"
       imageWidth: 200
       imageHeight: 200
@@ -61,7 +64,11 @@ menu:
     - identifier: about
       name: About
       url: /about/
-      weight: 4
+      weight: 3
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 3
     - identifier: blog
       name: Posts
       url: /posts/
